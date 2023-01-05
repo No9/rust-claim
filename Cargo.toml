@@ -16,5 +16,5 @@ documentation = "https://docs.rs/claim/0.4.0"
 maintenance = { status = "actively-developed" }
 github-actions = { repository = "svartalf/rust-claim", workflow = "Continuous integration" }
 
-[build-dependencies]
+[target."cfg(not(target_os = \"wasi\"))".build-dependencies]
 autocfg = "~1.0"
