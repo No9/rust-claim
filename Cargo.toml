@@ -15,6 +15,3 @@ documentation = "https://docs.rs/claim/0.4.0"
 [badges]
 maintenance = { status = "actively-developed" }
 github-actions = { repository = "svartalf/rust-claim", workflow = "Continuous integration" }
-
-[build-dependencies]
-autocfg = "~1.0"
